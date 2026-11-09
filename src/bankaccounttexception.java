@@ -21,6 +21,9 @@ abstract class BankAccount {
     void show() {
         System.out.println("  " + accountNumber + " balance: " + balance);
     }
+
+    public void undoLastDeposit() {
+    }
 }
 
 class SavingsAccount extends BankAccount {
